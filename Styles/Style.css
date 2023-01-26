@@ -37,10 +37,11 @@ header h1 {
     color: white;
     background-color: rgb(70, 53, 255);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.438);
+    transition: background-color 0.5s ease-out 5ms;
 }
 
 .btn-bar:hover{
-    background-color: rgb(2, 177, 2);
+    background-color: rgb(2, 177, 2);  
 }
 
 /*============BorderBox para el UpcomingEvents============*/
