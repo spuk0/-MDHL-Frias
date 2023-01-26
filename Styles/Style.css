@@ -16,7 +16,7 @@ header h1 {
     background-color: white;
 }
 .Banner{
-    min-height: 100vh;
+    min-height: 50vh;
     background-image: url(../assets/design1_image1.jpg);
     background-size:cover;
     overflow: hidden;
@@ -24,11 +24,9 @@ header h1 {
 
 /*============NAV============*/
 .NavigationBar {
-    display: inline-block;
-    justify-content: space-between;
-    position: relative;
-    left: 182vh;
-    bottom: 2vh;
+    position:fixed; 
+    left: 83%;
+    top: 5%;
 }
 
 /*============BOTONES DEL NAV============*/
@@ -91,5 +89,14 @@ header h1 {
 
 .ImagesAbt img {
     margin-bottom: 20px;
+}
+
+/*=============ContactText============================*/
+.ContactText p{
+    line-height: 25px;
+}
+
+.ContactText img {
+    margin-left: 50px;
 }
 
