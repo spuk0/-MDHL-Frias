@@ -10,22 +10,25 @@
 <body>
 
     <header>
-        <img width="200" src="./assets/Logo_Mighty_ducks-01.png" alt="mighty ducks logo">
-        <h1>Mighty Ducks Hockey League</h1>
-        <nav>
-            <button><a href="#">Home</a></button>
-            <button><a href="./Pages/about.html">About MDHL</a></button>
-            <button><a href="./Pages/contact.html">contact</a></button>
-        </nav>
+        <div class="Banner">
+            <h1>Mighty Ducks Hockey League</h1>
+            <nav class="NavigationBar">
+                <a class="btn-bar" href="#">Home</a>
+                <a class="btn-bar" href="./Pages/about.html">About</a>
+                <a class="btn-bar" href="./Pages/contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <img width="200" src="./assets/hockey_1.jpg" alt="Team player">
-
         <article class="UpcomingEvents">
 
             <h2>Upcoming Events</h2>
+            
+            <div class="UpcomingEventsContainer">
+            <img class="Logo" src="./assets/Logo_Mighty_ducks-01.png" alt="mighty ducks logo">
 
+           <div class="UpcomingEventsText">
             <section class="Event">
                 <h3>August 4</h3>
                 <p>MDSL Fundraiser</p>
@@ -40,6 +43,10 @@
                 <h3>September 1</h3>
                 <p>First Game of the Season (Check Game Schedule for details)</p>
             </section>
+            </div>
+            <img class="TeamImg" src="./assets/hockey_1.jpg" alt="TeamPlayer">
+
+            </div>
         </article>
     </main>
 </body>

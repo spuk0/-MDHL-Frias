@@ -2,5 +2,73 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans";
+    font-weight: normal;
+}
+/*============TITULOS Y SUBTITULOS============*/
+h1, h3 {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+/*============HEADER============*/
+header h1 {
+    background-color: white;
+}
+.Banner{
+    min-height: 100vh;
+    background-image: url(../assets/design1_image1.jpg);
+    background-size:cover;
+    overflow: hidden;
+}
+
+/*============NAV============*/
+.NavigationBar {
+    display: inline-block;
+    justify-content: space-between;
+    position: relative;
+    left: 182vh;
+    bottom: 2vh;
+}
+
+/*============BOTONES DEL NAV============*/
+.btn-bar {
+    border: 1px solid black;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(70, 53, 255);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.438);
+}
+
+.btn-bar:hover {
+    background-color: rgb(2, 177, 2);
+}
+
+/*============BorderBox para el UpcomingEvents============*/
+.UpcomingEvents h2{
+    border: 1px solid black;
+    text-align: center;
+}
+/*============LOGO============*/
+.Logo{
+    width: 120px;
+    height: 120px;
+}
+
+/*============IMAGES============*/
+.TeamImg {
+    width: 200px;
+    height: 200px;
+}
+
+/*============UpcomingEvents-TextBody============*/
+/*===================Position====================*/
+.UpcomingEventsContainer {
+    width: 200vh;
+    margin: 10vh 0 10vh 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
