@@ -25,7 +25,7 @@ header h1 {
 /*============NAV============*/
 .NavigationBar {
     position:fixed; 
-    left: 83%;
+    left: 66%;
     top: 5%;
 }
 
@@ -65,10 +65,9 @@ header h1 {
 /*===================Position====================*/
 .UpcomingEventsContainer {
     width: 200vh;
-    margin: 10vh 0vh 10vh 0;
+    margin: 10vh 0 5vh 0;
     display: flex;
-    /*flex-direction: row;
-    justify-content: space-around; Los quite porque no se usa para esta tarea, pero es solo estetica*/ 
+    justify-content: space-around;
 }
 /*===========Para poner espacio entre columnas sin usar flex===========*/
 .UpcomingEventsContainer div, .UpcomingEventsContainer .LogoContact {
