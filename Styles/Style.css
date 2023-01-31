@@ -69,10 +69,6 @@ header h1 {
     display: flex;
     justify-content: space-around;
 }
-/*===========Para poner espacio entre columnas sin usar flex===========*/
-.UpcomingEventsContainer div, .UpcomingEventsContainer .LogoContact {
-    margin: 0 20vh 0 20vh;
-}
 
 /*==============AboutText=================*/
 .Abt {
