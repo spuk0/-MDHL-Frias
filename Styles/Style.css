@@ -12,27 +12,29 @@ h1, h3 {
 }
 
 /*============HEADER============*/
-header h1 {
-    background-color: white;
-}
-.Banner{
-    min-height: 85vh;
-    background-image: url(../assets/design1_image1.jpg);
-    background-size:cover;
-    overflow: hidden;
-}
 
 /*============NAV============*/
-.NavigationBar {
-    position:fixed; 
-    left: 66%;
-    top: 5%;
+
+.navBar {
+    
+}
+
+#navItems {
+    position: fixed;
+    right: 1%;
+    width: 100%;
+    height: 7%;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
 }
 
 /*============BOTONES DEL NAV============*/
 .btn-bar {
     border: 1px solid black;
-    padding: 0 10px 0 10px;
+    padding: 0 20px 0 20px;
     text-decoration: none;
     color: white;
     background-color: rgb(70, 53, 255);
@@ -42,6 +44,22 @@ header h1 {
 
 .btn-bar:hover{
     background-color: rgb(2, 177, 2);  
+}
+/*============BANNER============*/
+.Banner{
+    min-height: 100vh;
+    background-image: url(../assets/design1_image1_shadow.png);
+    background-size:cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerText {
+    position:static;
+    color: white;
 }
 
 /*============BorderBox para el UpcomingEvents============*/
@@ -53,6 +71,13 @@ header h1 {
 .Logo{
     width: 200px;
     height: 200px;
+}
+
+.imgBanner {
+    position:fixed;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
 }
 
 /*============IMAGES============*/
