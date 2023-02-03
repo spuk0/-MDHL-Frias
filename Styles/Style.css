@@ -123,7 +123,7 @@ main h2{
     margin-bottom: 20px;
 }
 
-/*==============GameInformation================*/
+/*==============GameInformation and Rules================*/
 .containerGameInfo {
     display: flex;
     flex-direction: column;
@@ -147,12 +147,20 @@ td, th {
     border: 1px solid black;
 }
 
-p span {
+p span, li span {
     font-weight: bold;
 }
 
 .gamesInfoContact{
     line-height: 250%;
+}
+
+.startGameInfo p {
+    text-indent: 40px;
+}
+
+.startGameInfo ul {
+    margin-left: 10%;
 }
 /*=============ContactText=============*/
 .ContactText p{
