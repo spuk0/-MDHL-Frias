@@ -14,16 +14,14 @@ h1, h3 {
 /*============HEADER============*/
 
 /*============NAV============*/
-
-.navBar {
-    
+#navBar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 #navItems {
-    position: fixed;
-    right: 1%;
-    width: 100%;
-    height: 7%;
     background-color: transparent;
     display: flex;
     flex-wrap: wrap;
@@ -37,13 +35,14 @@ h1, h3 {
     padding: 0 20px 0 20px;
     text-decoration: none;
     color: white;
-    background-color: rgb(70, 53, 255);
+    background-color: rgb(0, 77, 243);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.438);
     transition: background-color 0.5s ease-out 5ms;
 }
 
 .btn-bar:hover{
-    background-color: rgb(2, 177, 2);  
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 /*============BANNER============*/
 .Banner{
@@ -62,8 +61,18 @@ h1, h3 {
     color: white;
 }
 
+.btn-bannerText {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s ease-out 5ms;
+}
+
+.btn-bannerText:hover {
+    color:rgb(0, 77, 243);
+}
+
 /*============BorderBox para el UpcomingEvents============*/
-.UpcomingEvents h2{
+main h2{
     border: 1px solid black;
     text-align: center;
 }
@@ -73,11 +82,9 @@ h1, h3 {
     height: 200px;
 }
 
-.imgBanner {
-    position:fixed;
-    border-radius: 100%;
-    width: 70px;
-    height: 70px;
+.imgBanner{
+    width: 50px;
+    height: 50px;
 }
 
 /*============IMAGES============*/
@@ -116,6 +123,37 @@ h1, h3 {
     margin-bottom: 20px;
 }
 
+/*==============GameInformation================*/
+.containerGameInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.startGameInfo {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.startGameInfoSon{
+    padding: 5%;
+    text-align: center;
+}
+td, th {
+    border: 1px solid black;
+}
+
+p span {
+    font-weight: bold;
+}
+
+.gamesInfoContact{
+    line-height: 250%;
+}
 /*=============ContactText=============*/
 .ContactText p{
     line-height: 25px;
