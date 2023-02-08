@@ -75,6 +75,7 @@ h1, h3 {
 main h2{
     border: 1px solid black;
     text-align: center;
+    background-color: bisque;
 }
 /*============LOGO============*/
 .Logo{
@@ -162,6 +163,20 @@ p span, li span {
 .startGameInfo ul {
     margin-left: 10%;
 }
+
+/*=============Registration-Form=============*/
+.containerFormSections {
+    padding: 5% 0  5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5vh;
+}
+
+.containerFormSections section {
+    width: 50%;
+}
+
 /*=============ContactText=============*/
 .ContactText p{
     line-height: 25px;
