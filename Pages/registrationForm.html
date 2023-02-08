@@ -35,36 +35,37 @@
 </header>
 <main>
     <h2>5 - 6</h2>
+    <article>
     <form class="containerFormSections">
         <!--=====================PERSONAL-DATA=====================-->
-        <legend>Registration MDHL</legend>
+        <h3>Registration MDHL</h3>
         <section class="personalData">
+            <h4>Personal Data</h4>
             <!--=====================FNAME, LNAME=====================-->
             <fieldset>
-                <legend></legend>
                 <label for="name">Player's First Name:</label>
-                <input type="text" name="name" required="required">
+                <input type="text" name="name" required="required" id="name">
 
                 <label for="lastName">Last Name</label>
-                <input type="text" name="lastName" required="required">
+                <input type="text" name="lastName" required="required" id="lastName">
             </fieldset>
             <!--=====================STREET-ADRESS=====================-->
             <fieldset>
                 <label for="streetAdress">Street Adress: </label>
-                <input type="text" name="streetAdress" required="required">
+                <input type="text" name="streetAdress" required="required" id="streetAdress">
             </fieldset>
             <!--=====================CITY-ZIPCODE=====================-->
             <fieldset>
                 <label for="city">City: </label>
-                <input type="text" name="city" required="required">
+                <input type="text" name="city" required="required" id="city">
 
                 <label for="zipCode">Zip Code: </label>
-                <input type="text" name="zipCode" required="required">
+                <input type="text" name="zipCode" required="required" id="zipCode">
             </fieldset>
             <!--=====================BIRTHDATE-GENDER=====================-->
             <fieldset>
                 <label for="birthDate">Birth Date(mm/dd/yyyy): </label>
-                <input type="text" name="birthDate" required="required">
+                <input type="text" name="birthDate" required="required" id="birthDate">
 
                 <select name="gender">
                     <option value="genderMale">Male</option>
@@ -77,96 +78,100 @@
                 <legend>Grade:</legend>
 
                 <label for="preSchool">Pre-School</label>
-                <input type="checkbox" name="preSchool" value="gradePreSchool">
+                <input type="checkbox" name="preSchool" value="gradePreSchool" id="preSchool">
 
                 <label for="first">1st</label>
-                <input type="checkbox" name="first" value="grade1st">
+                <input type="checkbox" name="first" value="grade1st" id="first">
 
                 <label for="second">2nd</label>
-                <input type="checkbox" name="second" value="grade2nd">
+                <input type="checkbox" name="second" value="grade2nd" id="second">
 
                 <label for="third">3rd</label>
-                <input type="checkbox" name="third" value="grade3rd">
+                <input type="checkbox" name="third" value="grade3rd" id="third">
 
                 <label for="fourth">4th</label>
-                <input type="checkbox" name="fourth" value="grade4th">
+                <input type="checkbox" name="fourth" value="grade4th" id="fourth">
 
                 <label for="fifth">5th</label>
-                <input type="checkbox" name="fifht" value="grade5th">
+                <input type="checkbox" name="fifht" value="grade5th" id="fifth">
             </fieldset>
         </section>
         <!--=====================CLOSESTSCHOOL=====================-->
         <section class="closestSchool">
+            <h4>Closest School</h4>
             <fieldset>
                 <legend>Wich elementary school do you live near?</legend>
-                <legend>Closest School: </legend>
+                <h4>Closest School</h4>
 
                 <label for="AJ">AJ Katzenmaier</label>
-                <input type="checkbox" name="AJ" value="schoolKaztzenmaier">
+                <input type="checkbox" name="AJ" value="schoolKaztzenmaier" id="AJ">
 
                 <label for="Greenbay">Greenbay</label>
-                <input type="checkbox" name="Greenbay" value="schoolGreenbay">
+                <input type="checkbox" name="Greenbay" value="schoolGreenbay" id="Greenbay">
 
                 <label for="Howard">Howard A Yeager</label>
-                <input type="checkbox" name="Howard" value="schoolHowardAYeager">
+                <input type="checkbox" name="Howard" value="schoolHowardAYeager" id="Howard">
 
                 <label for="Marjorie">Marjorie P Hart</label>
-                <input type="checkbox" name="Marjorie" value="schoolMarjoriePHart">
+                <input type="checkbox" name="Marjorie" value="schoolMarjoriePHart" id="Marjorie">
 
                 <label for="NorthElementary">North Elementary</label>
-                <input type="checkbox" name="NorthElementary" value="schoolNorthElementary">
+                <input type="checkbox" name="NorthElementary" value="schoolNorthElementary" id="NorthElementary">
 
                 <label for="SouthElementary">South Elementary</label>
-                <input type="checkbox" name="SouthElementary" value="schoolSouthElementary">
+                <input type="checkbox" name="SouthElementary" value="schoolSouthElementary" id="SouthElementary">
             </fieldset>
         </section>
         <!--=====================POSITION-TO-PLAY=====================-->
         <section class="playPositions">
+            <h4>Play positions</h4>
             <fieldset>
                 <legend>What position(s) do you normaly play? (check all that apply)</legend>
 
                 <label for="Forward">Forward</label>
-                <input type="checkbox" name="Forward" value="positionForward">
+                <input type="checkbox" name="Forward" value="positionForward" id="Forward">
 
                 <label for="Defense">Defense</label>
-                <input type="checkbox" name="Defense" value="positionDefense">
+                <input type="checkbox" name="Defense" value="positionDefense" id="Defense">
 
                 <label for="Midfield">Midfield</label>
-                <input type="checkbox" name="Midfield" value="positionMidfield">
+                <input type="checkbox" name="Midfield" value="positionMidfield" id="Midfield">
 
                 <label for="Goalkeeper">Goalkeeper</label>
-                <input type="checkbox" name="Goalkeeper" value="positionGoalkeeper">
+                <input type="checkbox" name="Goalkeeper" value="positionGoalkeeper" id="Goalkeeper">
             </fieldset>
         </section>
         <!--=====================UNIFORM-SIZE=====================-->
         <section class="uniformSize">
+            <h4>Uniform Size</h4>
             <fieldset>
-                <legend>Uniform Size</legend>
+                <legend>Size</legend>
 
                 <label for="ySmal">Youth Smal</label>
-                <input type="checkbox" name="ySmal" value="uniformSizeYSmal">
+                <input type="checkbox" name="ySmal" value="uniformSizeYSmal" id="ySmal">
 
                 <label for="yMedium">Youth Medium</label>
-                <input type="checkbox" name="yMedium" value="uniformSizeYMedium">
+                <input type="checkbox" name="yMedium" value="uniformSizeYMedium" id="yMedium">
 
                 <label for="yLarge">Youth Large</label>
-                <input type="checkbox" name="yLarge" value="uniformSizeYLarge">
+                <input type="checkbox" name="yLarge" value="uniformSizeYLarge" id="yLarge">
 
                 <label for="Small">Small</label>
-                <input type="checkbox" name="Small" value="uniformSizeSmall">
+                <input type="checkbox" name="Small" value="uniformSizeSmall" id="Small">
 
                 <label for="Medium">Medium</label>
-                <input type="checkbox" name="Medium" value="uniformSizeMedium">
+                <input type="checkbox" name="Medium" value="uniformSizeMedium" id="Medium">
 
                 <label for="Large">Large</label>
-                <input type="checkbox" name="Large" value="uniformSizeLarge">
+                <input type="checkbox" name="Large" value="uniformSizeLarge" id="Large">
 
                 <label for="Extra-Large">Extra-Large</label>
-                <input type="checkbox" name="Extra-Large" value="uniformSizeExtraLarge">
+                <input type="checkbox" name="Extra-Large" value="uniformSizeExtraLarge" id="Extra-Large">
             </fieldset>
         </section>
         <!--=====================PERMISSION-TEXT=====================-->
         <section class="permission">
+            <h4>Permission</h4>
             <p>I, the parent of guardian of the minor registrant, agree that the registrant and 
                 I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing
                 the possibillity of physical injury associated with hockey and in consideration for the 
@@ -180,15 +185,15 @@
                 By signing below, I herebyagree and authorize the above. In addition, by signing below, 
                 lalso acknowledge that I have read the cancellation policy and agree to its term.
             </p>
-            <label for="ParentSignature">Parent/GuardianSignature: </label>
-                <input type="text" name="ParentSignature" required="required">
+                <label for="ParentSignature">Parent/GuardianSignature: </label>
+                <input type="text" name="ParentSignature" required="required" id="ParentSignature">
 
                 <label for="PermissionDate">Date: </label>
-                <input type="text" name="PermissionDate" required="required">
+                <input type="text" name="PermissionDate" required="required" id="PermissionDate">
         </section>
         <input type="submit" class="btn-form-submit">
     </form>
-    </article>
+</article>
 </main>
 </body>
 </html>
