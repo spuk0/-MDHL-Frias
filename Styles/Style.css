@@ -144,6 +144,11 @@ main h2{
     padding: 5%;
     text-align: center;
 }
+
+.gamesInfoMap {
+    padding: 5%;
+    text-align: center;
+}
 td, th {
     border: 1px solid black;
 }
